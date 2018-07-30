@@ -25,92 +25,92 @@ GO
 insert into disciplina(nome, PlanoDeEnsino,CargaHoraria,Competencias, Habilidades, Ementa, 
 ConteudoProgramatico, BibliografiaBasica, BibliografiaComplementar, PercentualPratico, 
 PercentualTeorico, IdCoordenador) values
-('Tecnolgia Web','Introdução às tecnologias de desenvolvimento WEB.',80,'Html, Javascript, CSS, Python, Django','Desenvolver sites','Desenvolvimento de sites com tecnologia HTML.','1. Programação para Web. 2. Frameworks Web. 3. Engenharia Web.','ALMEIDA, M.G. E ROSA, P.C., Internet, Intranet e Redes Corporativas.','Rio de Janeiro, Brasport, 1a. Edição, 2000.',80,20,1),
+('Tecnolgia Web','IntroduÃ§Ã£o Ã s tecnologias de desenvolvimento WEB.',80,'Html, Javascript, CSS, Python, Django','Desenvolver sites','Desenvolvimento de sites com tecnologia HTML.','1. ProgramaÃ§Ã£o para Web. 2. Frameworks Web. 3. Engenharia Web.','ALMEIDA, M.G. E ROSA, P.C., Internet, Intranet e Redes Corporativas.','Rio de Janeiro, Brasport, 1a. EdiÃ§Ã£o, 2000.',80,20,1),
 ('Engenharia de Software',
-'Introdução à engenharia de softwares.',
+'IntroduÃ§Ã£o Ã  engenharia de softwares.',
 80,
-'Capacidade de defender o uso de métodos consagradas da Engenharia de Software.',
-'Discernir Software e Hardware, bem como as suas características.',
+'Capacidade de defender o uso de mÃ©todos consagradas da Engenharia de Software.',
+'Discernir Software e Hardware, bem como as suas caracterÃ­sticas.',
 'Engenharia de Software: Conceitos e objetivos. ',
-'1.Introdução. 2.Abordagens de Análise de Software',
+'1.IntroduÃ§Ã£o. 2.Abordagens de AnÃ¡lise de Software',
 'HIRAMA, K. Engenharia de Software. Rio de Janeiro: Elsevier, 2015.',
-'BECK, K. TDD – Desenvolvimento Guiado por Testes. Porto Alegre: Bookman, 2010.',
+'BECK, K. TDD â€“ Desenvolvimento Guiado por Testes. Porto Alegre: Bookman, 2010.',
 0,
 100,
 2),
-('Linguagem de Programação II',
-'Desenvolvimento de algoritmos com linguagem de programação.',
+('Linguagem de ProgramaÃ§Ã£o II',
+'Desenvolvimento de algoritmos com linguagem de programaÃ§Ã£o.',
 80,
-'Analisar problemas computacionais e projetar soluções por meio da construção de algoritmos.',
-'Codificar e interpretar códigos na linguagem de programação Python.',
-'A  linguagem  de  programação  Python  oferece  diversas  ferramentas  que  colaboram  para  a aprendizagem de programação.',
-'1. Variáveis. 2. Tipos de dados. 3. Estruturas de repetição.',
-'BORGES, Luiz. Python para desenvolvedores.1. ed. São Paulo: Novatec, 2014.',
-'MENEZES, Nilo. Introdução à Programação Python. 2. São Paulo:  Novatec, 2014.',
+'Analisar problemas computacionais e projetar soluÃ§Ãµes por meio da construÃ§Ã£o de algoritmos.',
+'Codificar e interpretar cÃ³digos na linguagem de programaÃ§Ã£o Python.',
+'A  linguagem  de  programaÃ§Ã£o  Python  oferece  diversas  ferramentas  que  colaboram  para  a aprendizagem de programaÃ§Ã£o.',
+'1. VariÃ¡veis. 2. Tipos de dados. 3. Estruturas de repetiÃ§Ã£o.',
+'BORGES, Luiz. Python para desenvolvedores.1. ed. SÃ£o Paulo: Novatec, 2014.',
+'MENEZES, Nilo. IntroduÃ§Ã£o Ã  ProgramaÃ§Ã£o Python. 2. SÃ£o Paulo:  Novatec, 2014.',
 80,
 20,
 3),
 ('Banco de Dados',
-'Compreensão e prática da linguagem SQL.',
+'CompreensÃ£o e prÃ¡tica da linguagem SQL.',
 80,
-'Manipular uma base de dados através da linguagem SQL.',
-'Elaborar consultas com as operações da Álgebra Relacional.',
-'Linguagem de definição e manipulação de dados( SQL – DDL e DML).',
-'1. Modelagem de Dados, 2. Normalização, 3. DDL, 4. DML',
-'Sistemas de Banco de Dados ELMASRI, R., Pearson, Addison, Wesley 4ª edição 2005',
-'Projeto de Banco de Dados Heuser, C. A. Bookman 6ª edição 2009',
+'Manipular uma base de dados atravÃ©s da linguagem SQL.',
+'Elaborar consultas com as operaÃ§Ãµes da Ãlgebra Relacional.',
+'Linguagem de definiÃ§Ã£o e manipulaÃ§Ã£o de dados( SQL â€“ DDL e DML).',
+'1. Modelagem de Dados, 2. NormalizaÃ§Ã£o, 3. DDL, 4. DML',
+'Sistemas de Banco de Dados ELMASRI, R., Pearson, Addison, Wesley 4Âª ediÃ§Ã£o 2005',
+'Projeto de Banco de Dados Heuser, C. A. Bookman 6Âª ediÃ§Ã£o 2009',
 80,
 20,
 5),
-('Lógica de Programação',
-'Introdução à lógica de programação e algoritmos.',
+('LÃ³gica de ProgramaÃ§Ã£o',
+'IntroduÃ§Ã£o Ã  lÃ³gica de programaÃ§Ã£o e algoritmos.',
 80,
-'Ter raciocínio lógico, codificar, compilar, e testar.',
-'Construir e testar algoritmos; utilizar estruturas de dados na resolução de problemas computacionais.',
-'Introdução à informática. Noções de algoritmos e suas representações.',
-'1. Definição de lógica e algoritmo. 2. Variáveis. 3. Tipos de dados. 4. Pseudocódigo',
-'Alcalde, E.; Garcia, M.; Penuelas, S. Informática Básica. MAKRON Books, 1991.',
-'Meirelles, F. S. Informática – Novas Aplicações com Microcomputadores. MAKRON Books, 1991.',
+'Ter raciocÃ­nio lÃ³gico, codificar, compilar, e testar.',
+'Construir e testar algoritmos; utilizar estruturas de dados na resoluÃ§Ã£o de problemas computacionais.',
+'IntroduÃ§Ã£o Ã  informÃ¡tica. NoÃ§Ãµes de algoritmos e suas representaÃ§Ãµes.',
+'1. DefiniÃ§Ã£o de lÃ³gica e algoritmo. 2. VariÃ¡veis. 3. Tipos de dados. 4. PseudocÃ³digo',
+'Alcalde, E.; Garcia, M.; Penuelas, S. InformÃ¡tica BÃ¡sica. MAKRON Books, 1991.',
+'Meirelles, F. S. InformÃ¡tica â€“ Novas AplicaÃ§Ãµes com Microcomputadores. MAKRON Books, 1991.',
 50,
 50,
 4);
 GO
 
 INSERT INTO Curso(Nome)
-VALUES('Sistemas de Informação'),
-('Análise e Desenvolvimento de Sistemas'),
+VALUES('Sistemas de InformaÃ§Ã£o'),
+('AnÃ¡lise e Desenvolvimento de Sistemas'),
 ('Banco de Dados'),
-('Administração'),
+('AdministraÃ§Ã£o'),
 ('Redes de Computadores');
 GO
 
 INSERT INTO DisciplinaOfertada(IdCoordenador, DtInicioMatricula, DtFimMatricula,IdDisciplina, IdCurso, Ano, Semestre, Turma, IdProfessor, Metodologia, Recursos, CriterioAvaliacao, PlanoDeAulas)
-VALUES(1, '2018-01-05', '2018-01-20', 1, 1, 2018, 1, 'A', 1, 'Tradicional', 'Computador, biblioteca', 'Media >= 7 e 75% de presença = APROVADO, Média < 7 e presença < 75%= EXAME, Media <=3 e presença < 75% = REPROVADO', '1. Programação para Web, 2. Frameworks Web, 3.Acesso a Banco de Dados e Sistemas Web, 4.Engenharia Web '),
-(2, '2015-07-10', '2015-07-28', 2, 2, 2015, 2, 'B', 2, 'Tradicional', 'Computador, dicionário', 'Media >= 7 e 75% de presença = APROVADO, Média < 7 e presença < 75%= EXAME, Media <=3 e presença < 75% = REPROVADO', null),
-(3, '2017-01-02', '2017-02-02', 3, 3, 2017, 1, 'C', 3, 'Tradicional', 'Computador, programa SQL', 'Media >= 7 e 75% de presença = APROVADO, Média < 7 e presença < 75%= EXAME, Media <=3 e presença < 75% = REPROVADO', null),
-(4, '2015-02-04', '2018-10-05', 4, 4, 2018, 1, 'D', 4, 'Tradicional', 'Computador, biblioteca', 'Media >= 7 e 75% de presença = APROVADO, Média < 7 e presença < 75%= EXAME, Media <=3 e presença < 75% = REPROVADO', '1.Conceitos,2.Geração de valor para o cliente, 3. Empreendorismo, 4. Mercados Novos e Diferenciados'),
-(5, '2014-10-06', '2014-11-06', 5, 5, 2014, 2, 'E', 5, 'Tradicional', 'Computador, cabeamento, biblioteca', 'Media >= 7 e 75% de presença = APROVADO, Média < 7 e presença < 75%= EXAME, Media <=3 e presença < 75% = REPROVADO', '1. Comunicação de  Dados, 2. Conceitos e evolução histórica,3. Conceitos de Redes e Computadores, 4. Tipos e classificações');
+VALUES(1, '2018-01-05', '2018-01-20', 1, 1, 2018, 1, 'A', 1, 'Tradicional', 'Computador, biblioteca', 'Media >= 7 e 75% de presenÃ§a = APROVADO, MÃ©dia < 7 e presenÃ§a < 75%= EXAME, Media <=3 e presenÃ§a < 75% = REPROVADO', '1. ProgramaÃ§Ã£o para Web, 2. Frameworks Web, 3.Acesso a Banco de Dados e Sistemas Web, 4.Engenharia Web '),
+(2, '2015-07-10', '2015-07-28', 2, 2, 2015, 2, 'B', 2, 'Tradicional', 'Computador, dicionÃ¡rio', 'Media >= 7 e 75% de presenÃ§a = APROVADO, MÃ©dia < 7 e presenÃ§a < 75%= EXAME, Media <=3 e presenÃ§a < 75% = REPROVADO', null),
+(3, '2017-01-02', '2017-02-02', 3, 3, 2017, 1, 'C', 3, 'Tradicional', 'Computador, programa SQL', 'Media >= 7 e 75% de presenÃ§a = APROVADO, MÃ©dia < 7 e presenÃ§a < 75%= EXAME, Media <=3 e presenÃ§a < 75% = REPROVADO', null),
+(4, '2015-02-04', '2018-10-05', 4, 4, 2018, 1, 'D', 4, 'Tradicional', 'Computador, biblioteca', 'Media >= 7 e 75% de presenÃ§a = APROVADO, MÃ©dia < 7 e presenÃ§a < 75%= EXAME, Media <=3 e presenÃ§a < 75% = REPROVADO', '1.Conceitos,2.GeraÃ§Ã£o de valor para o cliente, 3. Empreendorismo, 4. Mercados Novos e Diferenciados'),
+(5, '2014-10-06', '2014-11-06', 5, 5, 2014, 2, 'E', 5, 'Tradicional', 'Computador, cabeamento, biblioteca', 'Media >= 7 e 75% de presenÃ§a = APROVADO, MÃ©dia < 7 e presenÃ§a < 75%= EXAME, Media <=3 e presenÃ§a < 75% = REPROVADO', '1. ComunicaÃ§Ã£o de  Dados, 2. Conceitos e evoluÃ§Ã£o histÃ³rica,3. Conceitos de Redes e Computadores, 4. Tipos e classificaÃ§Ãµes');
 GO
 
 insert into Mensagem(IdAluno, IdProfessor, Assunto, Referencia, Conteudo, Status, DtEnvio, DtResposta, Resposta)
 values (1, 2, 'Atividade', 'AC 01', 'Gostaria de saber se a AC 01 pode ser feita em grupo','Enviado','2018-05-21',null,null),
-(2, 2, 'Nota', 'Banco de Dados', ' Boa tarde. Quando será lançado as notas das atividades?','Respondido','2017-08-12','2017-09-12','Provavalmente na próxima aula as notas estarão no portal'),
+(2, 2, 'Nota', 'Banco de Dados', ' Boa tarde. Quando serÃ¡ lanÃ§ado as notas das atividades?','Respondido','2017-08-12','2017-09-12','Provavalmente na prÃ³xima aula as notas estarÃ£o no portal'),
 (3, 3, 'Falta','Tecnologia Web', ' Como posso recuperar a minha falta da aula passada?', 'Lido', '2018-01-16',null,null),
-(4, 4, 'Trabalho', 'Linguagem de Programação II', 'Gostaria de saber qual é o prazo limite para a entrega do trabalho', 'Enviado', '2017-11-20',null,null),
-(5, 5, 'Mudança de Turno', 'Engenharia de Software', ' Mudei de turno, e preciso que minhas notas sejam passadas ao novo professor. Como devo proceder?','Respondido','2015-02-10','2015-02-11',' Esse procedimento é feito na secretaria da faculdade');
+(4, 4, 'Trabalho', 'Linguagem de ProgramaÃ§Ã£o II', 'Gostaria de saber qual Ã© o prazo limite para a entrega do trabalho', 'Enviado', '2017-11-20',null,null),
+(5, 5, 'MudanÃ§a de Turno', 'Engenharia de Software', ' Mudei de turno, e preciso que minhas notas sejam passadas ao novo professor. Como devo proceder?','Respondido','2015-02-10','2015-02-11',' Esse procedimento Ã© feito na secretaria da faculdade');
 GO
 
 Insert into  Atividade(Titulo,  Descricao , Conteudo  ,  Tipo, Extras ,  IdProfessor)
 
-Values('Historia do hadware'  ,'O aluno devera  fazer um breve resumo da historia do hardware desde os percursores ate os tempos atuais , mostrando seus avanços e conquistas para tecnologia',   'percusores ,historia ,evolução ,vantagens ',  'Aberta',  'www.canaltech.com.br', 1),
+Values('Historia do hadware'  ,'O aluno devera  fazer um breve resumo da historia do hardware desde os percursores ate os tempos atuais , mostrando seus avanÃ§os e conquistas para tecnologia',   'percusores ,historia ,evoluÃ§Ã£o ,vantagens ',  'Aberta',  'www.canaltech.com.br', 1),
 
-('Atividade modulos', 'Atividade de linguagem de programaçao II ', 'Impotaçao absoluta,atributo de um modulo,importação relativa,criando um modulo', 'Teste' ,  'www.clubedaprogramacao.com', 2),
+('Atividade modulos', 'Atividade de linguagem de programaÃ§ao II ', 'ImpotaÃ§ao absoluta,atributo de um modulo,importaÃ§Ã£o relativa,criando um modulo', 'Teste' ,  'www.clubedaprogramacao.com', 2),
 
 ('AS vantagens da engenharia de software ',  'Atividade complementar em turma', 'Tecnologias da engenharia de software,as vantagens e desvantages ,o uso  da engenharia de software','Aberta', null , 3),
 
 ('Ferramentas open souce para o desenvolvimento de software', 'Pesquisar ferramentas open souce ultilizadas  no desenvolvimentop de software', 'ferramentas open souce ,suas vantagens e desvantagens','Aberta', null, 4),
 
-('A segurança de dados', 'Como implatar um sistema de dados e protegêlo-lo', 'Sistemas, proteção', 'Aberta', null, 5);
+('A seguranÃ§a de dados', 'Como implatar um sistema de dados e protegÃªlo-lo', 'Sistemas, proteÃ§Ã£o', 'Aberta', null, 5);
 GO
  
 
@@ -123,14 +123,13 @@ values (1, 1, 1, 'AC1','Disponibilizada', '2018-04-05', '2018-04-10'),
 GO
 
 INSERT INTO Entrega(IdAluno, IdAtividadeVinculada, Titulo, Resposta, DtEntrega, Status, IdProfessor, Nota, DtAvaliacao, Obs)
-VALUES (1, 1, 'Linguargem de programação II', 'método padronizado para comunicar instruções para um computador', '2018-04-10', 'Entregue', 1, 10, '2018-04-26', 'Parabéns!'),
-(2, 2, 'Engenharia de Software', 'é uma área da computação voltada à especificação, desenvolvimento, manutenção e criação de softwareo', '2018-04-10', 'Corrigido', 2, 10, '2018-11-27', 'Parabéns!'),
-(3, 3, 'Linguagem SQL', 'Manipulação de dados', '2018-04-10', 'Entregue', 3, 10, '2018-04-28', 'Parabéns!'),
-(4, 4, 'Tecnologia Web', 'é a linguagem usada para descrever e definir o conteúdo de uma página Web em um formato estruturado', '2018-04-10', 'Corrigido', 4, 10, '2018-04-29', 'Parabéns!'),
-(5, 5, 'Ambiente de Desenvolvimento e Operação', 'permite que os aplicativos provisionem seus próprios ambientes operacionais', '2018-04-10', 'Entregue', 5, 10, '2018-04-30', 'Parabéns!');
+VALUES (1, 1, 'Linguargem de programaÃ§Ã£o II', 'mÃ©todo padronizado para comunicar instruÃ§Ãµes para um computador', '2018-04-10', 'Entregue', 1, 10, '2018-04-26', 'ParabÃ©ns!'),
+(2, 2, 'Engenharia de Software', 'Ã© uma Ã¡rea da computaÃ§Ã£o voltada Ã  especificaÃ§Ã£o, desenvolvimento, manutenÃ§Ã£o e criaÃ§Ã£o de softwareo', '2018-04-10', 'Corrigido', 2, 10, '2018-11-27', 'ParabÃ©ns!'),
+(3, 3, 'Linguagem SQL', 'ManipulaÃ§Ã£o de dados', '2018-04-10', 'Entregue', 3, 10, '2018-04-28', 'ParabÃ©ns!'),
+(4, 4, 'Tecnologia Web', 'Ã© a linguagem usada para descrever e definir o conteÃºdo de uma pÃ¡gina Web em um formato estruturado', '2018-04-10', 'Corrigido', 4, 10, '2018-04-29', 'ParabÃ©ns!'),
+(5, 5, 'Ambiente de Desenvolvimento e OperaÃ§Ã£o', 'permite que os aplicativos provisionem seus prÃ³prios ambientes operacionais', '2018-04-10', 'Entregue', 5, 10, '2018-04-30', 'ParabÃ©ns!');
 GO
 
 INSERT INTO SolicitacaoMatricula(IdAluno,IdDisciplinaOfertada,DtSolicitacao,IdCoordenador)
 VALUES(1,1,'2018-02-01',1),(2,2,'2018-05-04',2),(3,3,'2018-07-06',3),(4,4,'2018-05-08',4),(5,5,'2018-06-26',5);
 GO
-

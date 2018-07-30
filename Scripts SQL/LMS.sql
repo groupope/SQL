@@ -174,7 +174,7 @@ CREATE TABLE Entrega
 	IdAtividadeVinculada tinyint NOT NULL,
 	Titulo varchar(255) NOT NULL,
 	Resposta varchar(255) NOT NULL,
-	DtEntrega datetime NOT NULL DEFAULT getdate(),
+	DtEntrega date NOT NULL DEFAULT getdate(),
 	Status varchar(10) NOT NULL DEFAULT 'Entregue',
 	IdProfessor tinyint NULL,
 	Nota decimal(4,2) NULL,
@@ -186,7 +186,7 @@ CREATE TABLE Entrega
 	CONSTRAINT ck_EntregaStatus CHECK(Status LIKE 'Corrigido' or Status LIKE 'Entregue'),
 	CONSTRAINT fk_EntregaProfessor FOREIGN KEY (IdProfessor) REFERENCES Professor(ID),
 	CONSTRAINT ck_EntregaNota CHECK(Nota BETWEEN 0.00 and 10.00),
-	CONSTRAINT uq_EntregaAlunoDisciplinaOfertada UNIQUE (IdAluno,IdDisciplinaOfertada)
+	CONSTRAINT uq_EntregaAlunoAtividadeVinculada UNIQUE (IdAluno,IdAtividadeVinculada)
 );
 go
 
